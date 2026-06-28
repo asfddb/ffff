@@ -1,0 +1,6 @@
+{
+  "name": "India Governance Analysis",
+  "description": "An interactive research dashboard for independent, analytical evaluation of the BJP-led Indian government's policies, criticisms, and challenges, leveraging AI reasoning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
