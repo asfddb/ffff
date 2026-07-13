@@ -1,6 +1,6 @@
 {
-  "name": "India Governance Analysis",
-  "description": "An interactive research dashboard for independent, analytical evaluation of the BJP-led Indian government's policies, criticisms, and challenges, leveraging AI reasoning.",
+  "name": "Overwatch Protocol",
+  "description": "A browser-based tactical FPS built with Three.js. Round-based plant/defuse gameplay with a buy phase, economy, agents and abilities, weapons with recoil, enemy bots, and a full HUD. Original game with procedurally generated art and synthesized audio.",
   "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+  "majorCapabilities": []
 }

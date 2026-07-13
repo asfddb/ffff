@@ -3,11 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>India Governance Analysis - Independent Policy Evaluation</title>
+    <title>OVERWATCH PROTOCOL — Tactical Shooter</title>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
+    <div id="game"></div>
+    <div id="hud"></div>
+
+    <!-- Pause / lock hint -->
+    <div id="pauseHint" class="pause-hint" style="display:none">
+      <div class="pause-card">
+        <h1>PAUSED</h1>
+        <p>Mouse cursor released. Click to resume.</p>
+        <button id="resumeBtn" class="menu-btn">RESUME (click)</button>
+        <div class="controls-help">
+          <div><b>WASD</b> Move · <b>Shift</b> Walk · <b>Ctrl</b> Crouch · <b>Space</b> Jump</div>
+          <div><b>LMB</b> Fire · <b>RMB</b> Aim · <b>R</b> Reload · <b>F</b> Plant Spike</div>
+          <div><b>E / Q / C</b> Abilities · <b>B</b> Buy · <b>Tab</b> Scoreboard</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Start menu / agent select -->
+    <div id="menu" class="menu">
+      <div class="menu-bg"></div>
+      <div class="menu-inner">
+        <div class="menu-logo">
+          <span class="logo-main">OVERWATCH</span><span class="logo-sub">PROTOCOL</span>
+        </div>
+        <p class="menu-tag">A browser tactical shooter · plant the spike · first to 13 · built with Three.js</p>
+
+        <h2 class="select-h">SELECT YOUR AGENT</h2>
+        <div id="agentGrid" class="agent-grid"></div>
+
+        <button id="playBtn" class="menu-btn play">DEPLOY ▸</button>
+        <div class="menu-footer">
+          Original game inspired by the tac-shooter genre. Not affiliated with any existing title. ·
+          <b>WASD</b> move · <b>LMB</b> fire · <b>F</b> plant · <b>B</b> buy
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/src/game/main.ts"></script>
   </body>
 </html>
-
